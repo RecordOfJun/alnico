@@ -1,0 +1,78 @@
+.main_container{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    min-width: 1200px;
+}
+
+.top_bar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    /* min-width: 1200px; */
+}
+
+.youtube_banner{
+    display: flex;
+    flex-direction: column;
+}
+
+.youtube_image{
+    width: 100%;
+    height: 320px;
+    background-image: url("../images/ytban.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.youtube_image:hover{
+    background-color: black;
+}
+
+.alnico_product{
+    background-color: #9e0707;
+    color: ghostwhite;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product_content1{
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.product_content1-1{
+    width: 50%;
+    float: left;
+}
+
+.product_content1-2{
+    width: 50%;
+    float: right;
+    justify-content: center;
+}
+
+.auto_image{
+    background-image: url("../images/pack_system.png");
+    width: 480px;
+    height: 250px;
+    margin-top: 200px;
+    
+}
+
+.auto_image:hover{
+    background-image: url("../images/pack_system_color.png");
+    width: 480px;
+    height: 250px;
+}
