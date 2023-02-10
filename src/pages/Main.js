@@ -5,13 +5,12 @@ import mapImg from "../images/map.jpg";
 import { MenuBar } from "../components/MenuBar";
 import { Address } from "../components/Address";
 const Main=()=>{
+    
     return(
-
-
             <div className="main_container">
                 <MenuBar/>
 
-                <img src={mainImg}style={{width:"100%", height:"800px"}}/>
+                <img src={mainImg} class="main_image"/>
 
                 <div className="youtube_banner">
                     <a href="https://www.youtube.com/channel/UCSUW_pGH6ru65irfT4I7sog" target="_blank">

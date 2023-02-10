@@ -18,13 +18,3 @@
     font-size: 1.4rem;
     margin-top: 20px;
  }
-
-
-
- #footer{width: 100vw; background-color: #545c6e;position: relative;z-index: 2;}
- #footer a{color: mintcream; text-align: center;}
- 
- #footer .footer_con{width: 1200px; margin: 0 auto;}
- #footer .footer_con .wrap{width: 100%; padding: 30px 75px; color: rgb(195, 216, 236);}
- #footer .footer_con .wrap address span{margin: 0 20px 10px 0; font-style: normal; font-size: 1.6rem;}
- #footer .footer_con .wrap p{color: rgb(165, 182, 196); padding-top: 20px;font-size: 1.4rem;}
