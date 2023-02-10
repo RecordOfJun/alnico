@@ -1,0 +1,129 @@
+/* .top_bar{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.85);
+    position: fixed;
+    align-items: center;
+    justify-content:center;
+} */
+@charset "UTF-8";
+
+*{margin: 0; padding: 0; border: none; outline: none; box-sizing: border-box;}
+
+html{font-size: 10px;}
+body{overflow-x: hidden; font-family:'NotoKr','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif; background-color: black;}
+
+a{width: 100%; height: 100%; display: block; text-decoration: none; color: black;}
+ul,li{list-style: none;}
+button{cursor: pointer;}
+
+
+.cf::after{content: ''; display: block; clear: both;}
+.fl{float: left;}
+.fr{float: right;}
+
+.skip{font-size: 0;}
+
+
+/*header&sitemap 시작*/
+#header{
+    width: 100%; position: fixed; top: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
+#header .header_top{width: 100%;}
+#header .header_top a{color: white;}
+#header .header_top .logo{width: 230px; height: 68px; position: absolute; top: 20px; left: 100px;}
+#header .header_top .logo a{width: 100%; height: 100%; font-size: 0; background: url(../images/marklogo.png) no-repeat center top /100%;}
+
+
+
+#header .header_top .gnbbox{width: 35px; height: 67px; position: absolute; top: 20px; right: 100px; line-height: 67px;}
+
+#header .header_top .gnbbox .gnbLBox{width: 100%; height: 100%;}
+
+#header .header_top .gnbbox .gnbLBox .sitebox{width: 100%; height: 100%;}
+#header .header_top .gnbbox .gnbLBox .sitebox .sitemap_btn{width: 100%; height: 100%; position: relative; cursor: pointer; top: -5px;}
+
+#header .header_top .gnbbox .gnbLBox .sitebox .sitemap_btn span{width: 34px; height: 3px; background-color: white; position: absolute; left: 50%; margin-left: -17px; margin-top: -1.5px; transition: all .3s;}
+
+#header .header_top .gnbbox .gnbLBox .sitebox .sitemap_btn span:nth-child(1){top: 30%;}
+#header .header_top .gnbbox .gnbLBox .sitebox .sitemap_btn span:nth-child(2){top: 50%;}
+#header .header_top .gnbbox .gnbLBox .sitebox .sitemap_btn span:nth-child(3){top: 70%;}
+
+#header .header_top .gnbbox .gnbLBox .sitebox .sitemap_btn:hover span:nth-child(1){margin-left: -10px;}
+#header .header_top .gnbbox .gnbLBox .sitebox .sitemap_btn:hover span:nth-child(2){margin-left: -25px;}
+#header .header_top .gnbbox .gnbLBox .sitebox .sitemap_btn:hover span:nth-child(3){margin-left: -15px;}
+
+
+#header .lnb{width: 100%; color: transparent;}
+#header .lnb .menu{width: 1200px; margin: 0 auto; padding-left: 234px;}
+#header .lnb h2{font-size: 0;}
+
+#header .lnb .menu .depth1 .depth1_list .depth1_item{float: left; width: 20%; text-align: center; position: relative;}
+#header .lnb .menu .depth1 .depth1_list .depth1_item .depth1_text{
+	color: white; font-size: 2rem; 
+	height: 100px; line-height: 100px; 
+	text-shadow: 0 0 1px gray;
+}
+#header .lnb .menu .depth1 .depth1_list .depth1_item:last-child{margin-top:25px; width: 150px; height: 50px; border-radius: 50px; background: red;}
+#header .lnb .menu .depth1 .depth1_list .depth1_item .depth1_text:last-child{
+	color: white; 
+    text-shadow: 0 0 1px gray;
+    line-height: 50px;
+}
+
+#header .lnb .menu .depth1 .depth1_list .depth1_item:last-child:hover{transition: all 0.3s; background: rgb(173, 0, 0);}
+
+#header .lnb .menu .depth1 .depth1_item .depth2{
+	display: none; 
+    position: absolute; top: 100px;
+    width: 100%;
+} 
+
+#header .lnb .menu .depth1 .depth1_item .depth2 .menu_title{
+	/*background-color: #8b0909; 
+	width: 100%; text-align: left; 
+	padding: 12px 50px 0; 
+    color: white;*/
+    display: none;
+}
+#header .lnb .menu .depth1 .depth1_item .depth2 .depth2_list{display: block; width: 100%; }
+
+#header .lnb .menu .depth1 .depth1_item .depth2 .depth2_list .depth2_item{line-height: 45px; border-bottom: 1px solid #858585;background-color: rgba(0, 0, 0, 0.808);}
+#header .lnb .menu .depth1 .depth1_item .depth2 .depth2_list .depth2_item:last-child{border-bottom: none;}
+#header .lnb .menu .depth1 .depth1_item .depth2 .depth2_list .depth2_item .depth2_text{text-align: center; color: white; line-height: 45px;font-size: 1.6rem; }
+#header .lnb .menu .depth1 .depth1_item .depth2 .depth2_list .depth2_item:hover{transition: all .2s; background-color: rgba(19, 19, 19, 0.808);}
+
+#sitemap{width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; z-index: 999999; display: none;}
+#sitemap .bgopacity{width: 100%; height: 100%; background-color: #000000; opacity: 0.99;}
+#sitemap .sitmap_close_button{width: 40px; height: 40px;position: absolute; top: 30px; right: 115px;}
+#sitemap .sitmap_close_button span{width: 100%; height: 2px; background-color: #ffffff; position: absolute; top: 50%; margin-top: -1px;}
+#sitemap .sitmap_close_button span:first-child{transform: rotate(45deg);}
+#sitemap .sitmap_close_button span:last-child{transform: rotate(-45deg);}
+
+#sitemap .moclapop{width: 1400px; height: 800px; position: absolute; top: 50%; left: 50%; margin: -400px 0 0 -700px; padding: 30px;}
+#sitemap .moclapop a{color: mintcream;}
+#sitemap .moclapop .logo{width: 330px; height: 80px;}
+#sitemap .moclapop .logo li{width: 100%; height: 100%;background: url(../images/marklogo.png) no-repeat center/cover; font-size: 0;}
+
+
+#sitemap .moclapop .contents{margin-top: 120px; text-align: center; }
+
+#sitemap .moclapop .contents>div{width: calc(100%/4); padding: 0 10px;}
+
+
+
+
+#sitemap .moclapop .contents div>ul{width: 100%;}
+#sitemap .moclapop .contents div>ul .maintit{height: 60px; line-height: 60px; border-bottom: 2px solid mintcream; font-size: 2rem;}
+#sitemap .moclapop .contents div>ul .subtit{padding: 8px 0; border-bottom: 2px dotted mintcream; text-align: left;}
+#sitemap .moclapop .contents div>ul .subtit:last-child{border: none;}
+#sitemap .moclapop .contents div>ul .subtit a{height: 24px; line-height: 24px; font-size: 1.8rem;}
+#sitemap .moclapop .contents div>ul .subtit a:hover{transition: all 0.3s; color: rgb(255, 27, 27); text-shadow: 0 0 1px crimson;}
+
+
+/*header&sitemap 끝*/

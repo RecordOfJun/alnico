@@ -1,14 +1,15 @@
 import "./Main.css";
 import mainImg from "../images/banner01.png";
 import youtubeLink from "../images/utub.png";
+import mapImg from "../images/map.jpg";
+import { MenuBar } from "../components/MenuBar";
+import { Address } from "../components/Address";
 const Main=()=>{
     return(
 
 
             <div className="main_container">
-                <div className="top_bar">
-                
-                </div>
+                <MenuBar/>
 
                 <img src={mainImg}style={{width:"100%", height:"800px"}}/>
 
@@ -60,7 +61,15 @@ const Main=()=>{
                         <p className="font_bottom">알리코에서는 라벨 프린터기 판매 뿐만 아니라 A/S 서비스까지 제공합니다.</p>
                     </div>
                 </div>
+                <div>
+                    <div className="alnico_map">
+                        <h2 style={{color:"mintcream", fontWeight:"900", fontSize:"3rem"}}>오시는 길</h2>
+                        <img src={mapImg}style={{width:"600px", height:"420px", marginTop:"80px"}}/>
+                    </div>
+                </div>
                 
+                <Address/>
+
             </div>
     );
 };
