@@ -4,7 +4,9 @@ import { MenuBar } from "../../components/MenuBar"
 export const AS=()=>{
     return(
         <div className="main_container">
-            <MenuBar/>
+            <MenuBar
+            selected_page={9}
+            />
         </div>
     );
 }

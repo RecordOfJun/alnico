@@ -4,7 +4,9 @@ import { MenuBar } from "../../components/MenuBar"
 export const CEOIntroduction=()=>{
     return(
         <div className="main_container">
-            <MenuBar/>
+            <MenuBar
+            selected_page={1}
+            />
         </div>
     );
 }

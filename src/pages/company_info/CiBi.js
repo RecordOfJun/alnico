@@ -4,7 +4,9 @@ import { MenuBar } from "../../components/MenuBar"
 const CiBi=()=>{
     return(
         <div className="main_container">
-            <MenuBar/>
+            <MenuBar
+            selected_page={4}
+            />
         </div>
     );
 }

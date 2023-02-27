@@ -8,7 +8,9 @@ const Main=()=>{
     
     return(
             <div className="main_container">
-                <MenuBar/>
+                <MenuBar
+                selected_page=""
+                />
 
                 <img src={mainImg} class="main_image"/>
 
