@@ -7,6 +7,7 @@ export const AS=()=>{
             <MenuBar
             selected_page={9}
             />
+            
         </div>
     );
 }
