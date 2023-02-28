@@ -41,9 +41,11 @@
     width: 660px;
     margin-left: 70px;
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 17px;
     text-align: left;
-    word-break: keep-all;
+    word-break: break-all;
+    line-height: 20px;
+    font-weight: 500;
 }
 
 .history_area{
@@ -60,4 +62,36 @@
 .history_year{
     font-weight: 800;
     color:rgb(163, 11, 11)
+}
+
+.certificate_grid_container{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+}
+
+.certification_card{
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.certification_img{
+    height: 360px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0.5px -0.5px 10px 0.5px;
+}
+
+.certification_title{
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
 }
