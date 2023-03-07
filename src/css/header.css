@@ -90,7 +90,7 @@ button{cursor: pointer;}
 
 #sitemap{width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; z-index: 999999; display: none;}
 #sitemap .bgopacity{width: 100%; height: 100%; background-color: #000000; opacity: 0.99;}
-#sitemap .sitmap_close_button{width: 40px; height: 40px;position: absolute; top: 30px; right: 115px;}
+#sitemap .sitmap_close_button{width: 40px; height: 40px;position: absolute; top: 30px; right: 115px;padding-right: 40px;}
 #sitemap .sitmap_close_button span{width: 100%; height: 2px; background-color: #ffffff; position: absolute; top: 50%; margin-top: -1px;}
 #sitemap .sitmap_close_button span:first-child{transform: rotate(45deg);}
 #sitemap .sitmap_close_button span:last-child{transform: rotate(-45deg);}

@@ -24,28 +24,28 @@ export const MenuBar=(props)=>{
                     <div class="depth depth1">
                         <ul class="depth_list depth1_list cf">
                             <li class="depth_item depth1_item" onMouseEnter={()=>{}}>
-                                <a href="/company-info/ceo-introduction" target="_self" class="depth_text depth1_text" id="company-info" style={props.selected_page===1||props.selected_page===2||props.selected_page===3||props.selected_page===4||props.selected_page===5?{color:"red"}:{}}><span>알리코 소개</span></a>
+                                <a href="/company-info/ceo-introduction" target="_self" class="depth_text depth1_text" id="company-info" style={props.selected_page===1||props.selected_page===2||props.selected_page===3||props.selected_page===4||props.selected_page===5?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}><span>알리코 소개</span></a>
                                     <div class="depth depth2 cf">
                                         <ul class="depth_list depth2_list fl">
      
                                             <li class="depth_item depth2_item cf" >
-                                                <a href="/company-info/ceo-introduction" class="depth_text depth2_text fl" target="_self" style={props.selected_page===1?{color:"red"}:{}}><span>CEO인사말</span></a>
+                                                <a href="/company-info/ceo-introduction" class="depth_text depth2_text fl" target="_self" style={props.selected_page===1?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}><span>CEO인사말</span></a>
                                             </li>
                 
                                             <li class="depth_item depth2_item cf">
-                                                <a href="/company-info/history" class="depth_text depth2_text fl" target="_self" style={props.selected_page===2?{color:"red"}:{}}><span>회사연혁</span></a>
+                                                <a href="/company-info/history" class="depth_text depth2_text fl" target="_self" style={props.selected_page===2?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}><span>회사연혁</span></a>
                                             </li>
                 
                                             <li class="depth_item depth2_item cf">
-                                                <a href="/company-info/certification" class="depth_text depth2_text fl" target="_self" style={props.selected_page===3?{color:"red"}:{}}><span>인증서</span></a>
+                                                <a href="/company-info/certification" class="depth_text depth2_text fl" target="_self" style={props.selected_page===3?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}><span>인증서</span></a>
                                             </li>
                                             
                                             <li class="depth_item depth2_item cf">
-                                                <a href="/company-info/cibi" class="depth_text depth2_text fl" target="_self" style={props.selected_page===4?{color:"red"}:{}}><span>CI/BI소개</span></a>
+                                                <a href="/company-info/cibi" class="depth_text depth2_text fl" target="_self" style={props.selected_page===4?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}><span>CI/BI소개</span></a>
                                             </li>
                                             
                                             <li class="depth_item depth2_item cf">
-                                                <a href="/company-info/map" class="depth_text depth2_text fl" target="_self" style={props.selected_page===5?{color:"red"}:{}}><span>찾아오시는 길</span></a>
+                                                <a href="/company-info/map" class="depth_text depth2_text fl" target="_self" style={props.selected_page===5?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}><span>찾아오시는 길</span></a>
                                             </li>
 
                                         </ul>
@@ -53,7 +53,7 @@ export const MenuBar=(props)=>{
                             </li>
 
                             <li class="depth_item depth1_item has">
-                                <a href="/business/product" target="_self" class="depth_text depth1_text" style={props.selected_page===6||props.selected_page===7?{color:"red"}:{}}><span>사업분야</span></a>
+                                <a href="/business/product" target="_self" class="depth_text depth1_text" style={props.selected_page===6||props.selected_page===7?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}><span>사업분야</span></a>
                                     <div class="depth depth2 cf">
                                         <div class="menu_title fl">
                                             <div class="innerbox">
@@ -65,11 +65,11 @@ export const MenuBar=(props)=>{
                                         </div>
                                         <ul class="depth_list depth2_list fl">
                                             <li class="depth_item depth2_item cf">
-                                                <a href="/business/product" class="depth_text depth2_text fl" target="_self" style={props.selected_page===6?{color:"red"}:{}}><span>제품</span></a>
+                                                <a href="/business/product" class="depth_text depth2_text fl" target="_self" style={props.selected_page===6?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}><span>제품</span></a>
                                             </li>
                                             
                                             <li class="depth_item depth2_item cf">
-                                                <a href="/business/solution" class="depth_text depth2_text fl" target="_self" style={props.selected_page===7?{color:"red"}:{}}><span>솔루션</span></a>
+                                                <a href="/business/solution" class="depth_text depth2_text fl" target="_self" style={props.selected_page===7?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}><span>솔루션</span></a>
                                             </li>
                                             
                                         </ul>
@@ -77,7 +77,7 @@ export const MenuBar=(props)=>{
                             </li>
             
                             <li class="depth_item depth1_item has">
-                                <a href="/video" target="_self" class="depth_text depth1_text" style={props.selected_page===11?{color:"red"}:{}}><span>동영상</span></a>
+                                <a href="/video" target="_self" class="depth_text depth1_text" style={props.selected_page===11?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}><span>동영상</span></a>
                                     <div class="depth depth2 cf">
                                         <div class="menu_title fl">
                                             <div class="innerbox">
@@ -91,7 +91,7 @@ export const MenuBar=(props)=>{
                             </li>
             
                             <li class="depth_item depth1_item has">
-                                <a href="/customer/sales" target="_self" class="depth_text depth1_text" style={props.selected_page===8||props.selected_page===9||props.selected_page===10?{color:"red"}:{}}><span>고객지원</span></a>
+                                <a href="/customer/sales" target="_self" class="depth_text depth1_text" style={props.selected_page===8||props.selected_page===9||props.selected_page===10?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}><span>고객지원</span></a>
                                     <div class="depth depth2 cf">
                                         <div class="menu_title fl">
                                             <div class="innerbox">
@@ -104,17 +104,17 @@ export const MenuBar=(props)=>{
                                         <ul class="depth_list depth2_list fl">
                                         
                                             <li class="depth_item depth2_item cf">
-                                                <a href="/customer/sales" class="depth_text depth2_text fl" target="_self" style={props.selected_page===8?{color:"red"}:{}}><span>영업상담</span></a>
+                                                <a href="/customer/sales" class="depth_text depth2_text fl" target="_self" style={props.selected_page===8?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}><span>영업상담</span></a>
                                                 
                                             </li>
                                         
                                             <li class="depth_item depth2_item cf">
-                                                <a href="/customer/as" class="depth_text depth2_text fl" target="_self" style={props.selected_page===9?{color:"red"}:{}}><span>A/S상담</span></a>
+                                                <a href="/customer/as" class="depth_text depth2_text fl" target="_self" style={props.selected_page===9?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}><span>A/S상담</span></a>
 
                                             </li>
                 
                                             <li class="depth_item depth2_item cf">
-                                                <a href="/customer/documentay" class="depth_text depth2_text fl" target="_self" style={props.selected_page===10?{color:"red"}:{}}><span>자료실</span></a>
+                                                <a href="/customer/documentay" class="depth_text depth2_text fl" target="_self" style={props.selected_page===10?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}><span>자료실</span></a>
 
                                             </li>
 
@@ -126,7 +126,7 @@ export const MenuBar=(props)=>{
                                 <a href="https://www.youtube.com/channel/UCSUW_pGH6ru65irfT4I7sog" target="_blank" class="depth_text depth1_text"><span>Youtube</span></a>
                             </li> */}
                             <li class="depth_item depth1_item has">
-                                <a href="/recruitment" target="_self" class="depth_text depth1_text" style={props.selected_page===12?{color:"red"}:{}}><span>채용정보</span></a>
+                                <a href="/recruitment" target="_self" class="depth_text depth1_text" style={props.selected_page===12?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}><span>채용정보</span></a>
                                     <div class="depth depth2 cf">
                                         <div class="menu_title fl">
                                             <div class="innerbox">
@@ -170,22 +170,22 @@ export const MenuBar=(props)=>{
             <ul>
                 <li class="maintit"><a href="/company-info/ceo-introduction">알리코 소개</a></li>
                 <li class="subtit titTop">
-                    <a href="/company-info/ceo-introduction" style={props.selected_page===1?{color:"red"}:{}}>CEO인사말</a>
+                    <a href="/company-info/ceo-introduction" style={props.selected_page===1?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}>CEO인사말</a>
                 </li>
                 {/* <li class="subtit">
                     <a href="#none">사업개요</a>
                 </li> */}
                 <li class="subtit">
-                    <a href="/company-info/history" style={props.selected_page===2?{color:"red"}:{}}>회사연혁</a>
+                    <a href="/company-info/history" style={props.selected_page===2?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}>회사연혁</a>
                 </li>
                 <li class="subtit">
-                    <a href="/company-info/certification" style={props.selected_page===3?{color:"red"}:{}}>인증서</a>
+                    <a href="/company-info/certification" style={props.selected_page===3?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}>인증서</a>
                 </li>
                 <li class="subtit">
-                    <a href="/company-info/cibi" style={props.selected_page===4?{color:"red"}:{}}>CI/BI소개</a>
+                    <a href="/company-info/cibi" style={props.selected_page===4?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}>CI/BI소개</a>
                 </li>
                 <li class="subtit">
-                    <a href="/company-info/map" style={props.selected_page===5?{color:"red"}:{}}>찾아오시는 길</a>
+                    <a href="/company-info/map" style={props.selected_page===5?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}>찾아오시는 길</a>
                 </li>
             </ul>
         </div>
@@ -194,10 +194,10 @@ export const MenuBar=(props)=>{
                 <ul>
                     <li class="maintit"><a href="/business/product">사업분야</a></li>
                     <li class="subtit titTop">
-                        <a href="/business/product" style={props.selected_page===6?{color:"red"}:{}}>제품</a>
+                        <a href="/business/product" style={props.selected_page===6?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}>제품</a>
                     </li>
                     <li class="subtit">
-                        <a href="/business/solution" style={props.selected_page===7?{color:"red"}:{}}>솔루션</a>
+                        <a href="/business/solution" style={props.selected_page===7?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}>솔루션</a>
                     </li>
                 </ul>
             </div>
@@ -205,13 +205,13 @@ export const MenuBar=(props)=>{
                 <ul>
                     <li class="maintit"><a href="/customer/sales">고객지원</a></li>
                     <li class="subtit titTop">
-                        <a href="/customer/sales" style={props.selected_page===8?{color:"red"}:{}}>영업상담</a>
+                        <a href="/customer/sales" style={props.selected_page===8?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}>영업상담</a>
                     </li>
                     <li class="subtit">
-                        <a href="/customer/as" style={props.selected_page===9?{color:"red"}:{}}>A/S상담</a>
+                        <a href="/customer/as" style={props.selected_page===9?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}>A/S상담</a>
                     </li>
                     <li class="subtit">
-                        <a href="/customer/documentay" style={props.selected_page===10?{color:"red"}:{}}>자료실</a>
+                        <a href="/customer/documentay" style={props.selected_page===10?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}>자료실</a>
                     </li>
                 </ul>
             </div>
@@ -219,10 +219,10 @@ export const MenuBar=(props)=>{
                 <ul>
                     <li class="maintit"><a href="/video">기타정보</a></li>
                     <li class="subtit titTop">
-                        <a href="/video" style={props.selected_page===11?{color:"red"}:{}}>동영상</a>
+                        <a href="/video" style={props.selected_page===11?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}>동영상</a>
                     </li>
                     <li class="subtit">
-                        <a href="/recruitment" style={props.selected_page===12?{color:"red"}:{}}>채용정보</a>
+                        <a href="/recruitment" style={props.selected_page===12?{color: "rgb(255, 27, 27)", textShadow: "0 0 1px crimson"}:{}}>채용정보</a>
                     </li>
                 </ul>
             </div>
